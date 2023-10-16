@@ -5,7 +5,7 @@ var ajaxCall = (key, prompt) => {
       };
   return new Promise((resolve, reject) => {
     $.ajax({
-      type: "GET",
+      type: "POST",
       url: "http://localhost:3000/embedding",
     //   headers: {
     //     "Content-Type": "application/json",
